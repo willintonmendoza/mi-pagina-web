@@ -1,0 +1,247 @@
+
+* { 
+    box-sizing: border-box; 
+    margin: 0; 
+    padding: 0; 
+    font-family: Arial, sans-serif; 
+}
+
+body { 
+    background-color: #11131a; 
+    color: #ffffff; 
+    line-height: 1.5; 
+}
+
+a { 
+    text-decoration: none; 
+    color: inherit; 
+}
+
+.encabezado-principal { 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 20px 5%; 
+    background-color: #0b0d12; 
+    border-bottom: 1px solid #222; 
+}
+.caja-logo { 
+    display: flex; 
+    align-items: center; 
+    gap: 10px; 
+}
+.logo-icono { 
+    background-color: #fca311; 
+    color: #000; 
+    padding: 5px 10px; 
+    font-weight: bold; 
+    border-radius: 3px; 
+}
+
+.logo-textos strong { 
+    display: block; 
+    font-size: 14px; 
+}
+
+.logo-textos span { 
+    font-size: 10px; 
+    color: #aaa; 
+}
+
+.navegacion-principal ul { 
+    list-style: none; 
+    display: flex; 
+    gap: 20px; 
+}
+
+.navegacion-principal a { 
+    font-size: 13px; 
+    color: #aaa; 
+}
+
+.navegacion-principal a.activo { 
+    color: #fff; 
+    border-bottom: 2px solid #fca311; 
+}
+
+.btn-cotizar-nav { 
+    background-color: #fca311; 
+    color: #000; 
+    padding: 8px 20px; 
+    font-weight: bold; 
+    font-size: 13px; 
+    border-radius: 3px; 
+}
+
+.contenido-inicio { 
+    padding: 50px 5%; 
+}
+
+.seccion-hero {
+    display: flex;
+    gap: 40px; 
+    align-items: center; 
+}
+
+.hero-texto { 
+    flex: 1; 
+}
+
+.etiqueta-importacion { 
+    color: #fca311; 
+    border: 1px solid #fca311; 
+    padding: 5px 10px; 
+    font-size: 11px; 
+    border-radius: 3px; 
+    display: inline-block; 
+    margin-bottom: 20px; 
+}
+
+.titulo-principal { 
+    font-size: 50px; 
+    color: #fca311; 
+    line-height: 1.1; 
+    margin-bottom: 20px; 
+}
+
+.descripcion-hero { 
+    color: #aaa; 
+    margin-bottom: 30px; 
+    font-size: 15px; 
+    max-width: 500px; 
+}
+
+.hero-botones { 
+    display: flex; 
+    gap: 15px; 
+    margin-bottom: 40px; 
+}
+
+.btn-primario { 
+    background-color: #fca311; 
+    color: #000; 
+    padding: 12px 25px; 
+    font-weight: bold; 
+    border-radius: 3px; 
+}
+
+.btn-secundario { 
+    background-color: transparent; 
+    border: 1px solid #444; 
+    color: #fff; 
+    padding: 12px 25px; 
+    border-radius: 3px; 
+}
+
+.hero-caracteristicas { 
+    display: flex; 
+    gap: 20px; 
+    border-top: 1px solid #333; 
+    padding-top: 20px; 
+}
+
+.caracteristica { 
+    display: flex; 
+    align-items: center; 
+    gap: 10px; 
+    font-size: 12px; 
+}
+
+.caracteristica p { 
+    color: #fff; 
+}
+
+.caracteristica small { 
+    color: #aaa; 
+}
+
+.hero-imagen { 
+    flex: 1; 
+    position: relative; 
+}
+
+.hero-imagen img { 
+    width: 100%; 
+    height: 350px; 
+    object-fit: cover; 
+    border-radius: 5px; 
+}
+
+.insignia-experiencia { 
+    position: absolute; 
+    bottom: -20px; 
+    right: -20px; 
+    background-color: #fca311; 
+    color: #000; 
+    padding: 20px; 
+    text-align: center; 
+    font-weight: bold; 
+}
+
+.insignia-experiencia strong { 
+    display: block; 
+    font-size: 24px; 
+}
+
+.insignia-experiencia span { 
+    font-size: 11px; 
+}
+
+.pie-pagina { 
+    background-color: #0b0d12; 
+    padding: 40px 5% 20px; 
+    margin-top: 50px; 
+    border-top: 1px solid #222; 
+}
+
+.footer-columnas { 
+    display: flex; 
+    justify-content: space-between; 
+    margin-bottom: 30px;
+    flex-wrap: wrap; 
+    gap: 20px; 
+}
+
+.columna-info { 
+    max-width: 250px; 
+}
+
+.columna-info p { 
+    color: #aaa; 
+    font-size: 13px; 
+    margin-top: 15px;
+}
+
+.footer-columnas h3 { 
+    font-size: 14px; 
+    margin-bottom: 15px; 
+}
+
+.columna-enlaces ul, .columna-categorias ul { 
+    list-style: none; 
+}
+
+.columna-enlaces li, .columna-categorias li { 
+    color: #aaa; 
+    font-size: 13px; 
+    margin-bottom: 8px; 
+}
+
+.columna-contacto p { 
+    color: #aaa; 
+    font-size: 13px; 
+    margin-bottom: 8px; 
+}
+
+.footer-legal { 
+    border-top: 1px solid #222; 
+    padding-top: 20px; 
+    display: flex; 
+    justify-content: space-between; 
+    font-size: 12px; color: #666; 
+}
+
+.footer-legal div a { 
+    color: #666; 
+    margin-left: 15px; 
+}
